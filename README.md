@@ -8,10 +8,9 @@ Podatki o posamezni planinski točki:
 - višina
 - vrsta
 - priljubljenost
-- število poti
+- število poti in njihova zahtevnost
 - število ogledov
-- opis gore
-- gore v okolici
+- gore v okolici in njihova višina
 
 Hipoteze:
 1. Ali največ točk na planinski poti v Alpah predstavljajo vrhovi?
@@ -19,4 +18,10 @@ Hipoteze:
 3. Ali je priljubljenost obiskov planinske točke povezana s številom gor v okolici?
 4. Ali je priljubljenost povezana z višino točke?
 5. Ali lahko preko višine predvidemo vrsto planinske točke?
+
+Repozitorij vsebuje štiri CSV datoteke (in json slovar vseh podatkov skupaj):
+1. planinske-tocke.csv vsebuje podatke o imenu in višini planinske točke, kateremu gorovju pripada, koliko poti vodi nanjo, koliko planinskih točk se nahaja okoli nje v radiju dveh kilometrov, na katerem mestu je glede priljubljenosti in število ogledov spletne strani, ki je namenjena eksplicitno tej planinski točki
+2. vrste.csv za vsako planinsko točko pove, kakšne vrste je (posamezna je lahko več vrst)
+3. poti.csv hrani podatke o različnih poteh, ki vodijo na posamezno točko in njihove zahtevnosti
+4. bliznje-tocke.csv pa za vsako točko beleži bližje točke (v radiju dveh kilometrov) ter pove še višino posamezne bližnje točke
 
