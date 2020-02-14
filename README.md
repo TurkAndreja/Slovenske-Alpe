@@ -25,3 +25,4 @@ Repozitorij vsebuje štiri CSV datoteke (in json slovar vseh podatkov skupaj):
 3. poti.csv hrani podatke o različnih poteh, ki vodijo na posamezno točko in njihove zahtevnosti
 4. bliznje-tocke.csv pa za vsako točko beleži bližje točke (v radiju dveh kilometrov) ter pove še višino posamezne bližnje točke
 
+V mapi obdelani-podatki se nahaja tudi analiza podatkov.
